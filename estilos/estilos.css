@@ -1,0 +1,142 @@
+/* Reset global de márgenes y bordes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/images/descarga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: #5c6bc0; 
+    color: white;
+}
+
+.titulo {
+    font-size: 2.5em;
+    margin-left: 30px;
+    height: 150px;
+    padding: 50px;
+}
+
+nav {
+    background-color: rgb(173, 214, 230);
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    height: 50px;
+    padding-left: 90px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 80%;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 100%;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #e3f2fd;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+   
+}
+
+.date-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date {
+    background-color: rgb(36, 32, 32);
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+}
+
+.date2 {
+    background-color: rgb(36, 32, 32);
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    right: 1530px;
+    top: 250px;
+}
+
+
+
+.card-body {
+    margin-left: 40px;
+    padding: 20px;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+.card-body h2 {
+    font-size: 1.8em;
+    color: #5c6bc0;
+    margin-bottom: 10px;
+}
+
+.flex2 {
+    border: 2px solid grey;
+    margin-top: 40px;
+    background-color: #2281ce;
+    border-radius: 30px;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    align-items: center;
+    font-size: 15px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;  
+   
+}
+
+
+
+.images {
+    display: flex;
+    gap: 10px;  
+    flex-wrap: wrap; 
+    width: 100%;  
+}
+
+.images img {
+    flex: 0 1 200px;  
+    height: auto;  
+    max-width: 100%;  
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
